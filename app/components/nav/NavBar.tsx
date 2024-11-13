@@ -36,7 +36,7 @@ const NavBar = async () => {
           >
             <Link href="/">
           <h1 className="text-black font-bold text-xl lg:text-3xl">
-            Middle<span className="text-primary"> Eastern Mart & Resturant</span>
+            Middle<span className="text-red-500"> Eastern Mart & Resturant</span>
           </h1>
         </Link>
             <div className="hidden md:block"><SearchBar/></div>
