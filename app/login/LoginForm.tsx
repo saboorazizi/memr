@@ -64,7 +64,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ currentUser }) => {
 
   return (
     <>
-      <Heading title="Sign in to E~Shop" />
+      <Heading title="Sign in to MEM&R" />
       <Button
         outline
         label="Continue with Google"

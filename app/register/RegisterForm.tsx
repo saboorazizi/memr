@@ -76,7 +76,7 @@ const RegisterForm: React.FC<RegisterFormProps> = ({ currentUser }) => {
 
   return (
     <>
-      <Heading title="Sign up for E~Shop" />
+      <Heading title="Sign up for MEM&R" />
       <Button
         outline
         label="Continue with Google"
