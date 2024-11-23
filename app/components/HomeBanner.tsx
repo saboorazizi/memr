@@ -4,10 +4,10 @@ import { Carousel } from "@material-tailwind/react";
 
 const HomeBanner = () => {
   return (
-    <div className="">
+    <div className="w-full md:w-auto">
       <div className="relative">
           <Carousel
-            className="rounded-xl"
+            className="w-full h-auto"
             navigation={({ setActiveIndex, activeIndex, length }) => (
               <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
                 {new Array(length).fill("").map((_, i) => (

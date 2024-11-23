@@ -27,7 +27,7 @@ export const categories = [
     icon: MdWatch,
   },
   {
-    label: "spices and condiments",
+    label: "Spices and Condiments",
     icon: MdTv,
   },
   {

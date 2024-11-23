@@ -18,7 +18,7 @@ const NavBar = async () => {
   sticky
   top-0
   w-full
-  bg-slate-200
+  bg-orange-200
   z-30
   shadow-sm
   "
@@ -34,12 +34,12 @@ const NavBar = async () => {
           md:gap-0
           "
           >
-            <Link href="/">
+        <Link href="/">
           <h1 className="text-black font-bold text-xl lg:text-3xl">
             Middle<span className="text-red-500"> Eastern Mart & Resturant</span>
           </h1>
         </Link>
-            <div className="hidden md:block"><SearchBar/></div>
+            {/* <div className="hidden md:block"><SearchBar/></div> */}
             <div className="flex items-center gap-8 md:gap-12">
               <CartCount />
               <UserMenu currentUser={currentUser} />
