@@ -15,7 +15,7 @@ const Categories = () => {
 
     return (<div className="bg-white">
         <Container>
-            <div className="pt-4 flex flex-row items-center justify-between overflow-x-auto">
+            <div className="flex flex-row items-center justify-center overflow-x-auto">
                 {categories.map((item) =>(
                     <Category
                         key={item.label}

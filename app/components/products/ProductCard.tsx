@@ -24,15 +24,16 @@ const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
       onClick={() => router.push(`/product/${data.id}`)}
       className="col-span-1
     cursor-pointer
-    border-[1.2px]
     border-slate-200
-    bg-slate-50
-    rounded-sm
-    p-2
+    bg-gray-50
+    rounded-md
+    pb-2
     transition
     hover:scale-105
+    hover:bg-gray-200
     text-center
     text-sm
+    shadow-md
     "
     >
       <div
@@ -44,17 +45,17 @@ const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
       gap-1
       "
       >
-        <div className="aspect-square overflow-hidden relative w-full">
+        <div className="aspect-square overflow-hidden relative w-full rounded-md">
         {data.images?.[0]?.image && (
           <Image
             fill
             src={data.images[0].image || "/placeholder.jpg"}
             alt={data.name}
-            className="w-full h-full object-contain"
+            className="w-full h-full object-cover"
           />
         )}
         </div>
-        <div className="mt-4">{truncateText(data.name)}</div>
+        <div className="mt-4 text-blue-300">{truncateText(data.name)}</div>
         <div>
           <Rating value={productRating} readOnly />
         </div>

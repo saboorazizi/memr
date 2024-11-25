@@ -7,31 +7,27 @@ export const categories = [
     icon: MdStorefront,
   },
   {
-    label: "Fruits",
+    label: "Baking & Spices",
     icon: AiFillPhone,
   },
   {
-    label: "Vegetables",
+    label: "Beverages",
     icon: AiFillPhone,
   },
   {
-    label: "Groceries",
+    label: "Bread, Cereals & Rice",
     icon: AiOutlineLaptop,
   },
   {
-    label: "Dairies",
+    label: "Cleaning & Household",
     icon: AiOutlineDesktop,
   },
   {
-    label: "Halal Meat",
+    label: "Condiments",
     icon: MdWatch,
   },
   {
-    label: "Spices and Condiments",
+    label: "Dairy Products",
     icon: MdTv,
-  },
-  {
-    label: "Frozen Foods",
-    icon: MdOutlineKeyboard,
-  },
+  }
 ];

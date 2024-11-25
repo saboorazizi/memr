@@ -38,7 +38,8 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
         cursor-pointer
         hover:shadow-md
         transition
-        text-slate-700
+        text-gray-500
+        bg-gray-700
         "
         >
           <Avatar src={currentUser?.image} />
@@ -50,6 +51,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
             rounded-md
             shadow-md
             w-[170px]
+            text-gray-500
             bg-white
             overflow-hidden
             right-0

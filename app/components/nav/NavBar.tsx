@@ -18,9 +18,10 @@ const NavBar = async () => {
   sticky
   top-0
   w-full
-  bg-orange-200
+  bg-black
+  text-gray-100
   z-30
-  shadow-sm
+  shadow-md
   "
     >
       <div className="py-4 border-b-[1px]">
@@ -35,8 +36,8 @@ const NavBar = async () => {
           "
           >
         <Link href="/">
-          <h1 className="text-black font-bold text-xl lg:text-3xl">
-            Middle<span className="text-red-500"> Eastern Mart & Resturant</span>
+          <h1 className="text-white font-bold text-xl lg:text-3xl">
+            ME<span className="text-red-800">Mart & Rest</span>
           </h1>
         </Link>
             {/* <div className="hidden md:block"><SearchBar/></div> */}
